@@ -1,0 +1,9 @@
+.git
+.github
+README.md
+wrangler.jsonc
+node_modules
+.wrangler
+.dev.vars
+*.txt
+!robots.txt
