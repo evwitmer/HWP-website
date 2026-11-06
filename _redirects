@@ -1,0 +1,18 @@
+# Serve the home page at / (html_handling is "none" so .html URLs stay exactly as written)
+/            /index.html       200
+
+# Old WordPress URLs -> new pages (permanent)
+/pallets/    /pallets.html     301
+/pallets     /pallets.html     301
+/services/   /                 301
+/services    /                 301
+/about/      /#about           301
+/about       /#about           301
+/contact/    /contact.html     301
+/contact     /contact.html     301
+/lumber/     /dunnage.html     301
+/lumber      /dunnage.html     301
+/mantels/    /                 301
+/mantels     /                 301
+/our-work/   /                 301
+/our-work    /                 301
